@@ -10,6 +10,7 @@
     font-family: "Noto Sans", sans-serif;
     text-decoration: none;
     font-size: 16px;
+    color: #F9FAF8;
 }
 
 img {
@@ -27,7 +28,6 @@ img {
 
 header {
     background-color: #1F2937;
-    color: #F9FAF8;
     padding: 0 20% 2em 20%;
 }
 
@@ -48,10 +48,6 @@ nav ul {
     gap: 1em;
 }
 
-nav a:link, a:visited, a:hover, a:active {
-    color: #F9FAF8;
-}
-
 /* Hero Styling */
 
 .hero-container {
@@ -62,17 +58,23 @@ nav a:link, a:visited, a:hover, a:active {
 .hero-text {
     flex-direction: column;
     align-items: flex-start;
+    gap: .75em;
     flex: 1;
 }
 
 .hero-text h1 {
     font-size: 48px;
     font-weight: 900;
+    line-height: .9em;
+}
+
+.hero-text p {
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 .hero-text button {
     background-color: #3882F6;
-    color: #F9FAF8;
     font-weight: 900;
     border: 0;
     padding: .2em 2em;
@@ -82,3 +84,6 @@ nav a:link, a:visited, a:hover, a:active {
 .hero-img {
     flex: 1;
 }
+
+/* First Main Section Styling */
+
