@@ -87,3 +87,27 @@ nav ul {
 
 /* First Main Section Styling */
 
+.main-container {
+    flex-direction: column;
+    align-items: center;
+    margin: 2em;
+}
+
+.main-container h2 {
+    font-size: 36px;
+    color: black;
+    margin-bottom: .5em;
+}
+
+.main-container figcaption {
+    color: #616161;
+}
+
+.main-container figure {
+    margin: 1em;
+}
+
+.main-container img {
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+}
