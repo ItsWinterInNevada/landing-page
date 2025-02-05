@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Noto Sans", sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+img {
+    width: 300px;
+    height: 225px;
+}
+
+/* Beginning of Styling */
+
+.flex-container {
+    display: flex;
+}
+
+/* Header Styling */
+
+header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 0 20% 2em 20%;
+}
+
+/* Navbar Styling */
+
+nav {
+    padding: 1em 0;
+    align-items: center;
+}
+
+nav p {
+    margin-right: auto;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+nav ul {
+    gap: 1em;
+}
+
+nav a:link, a:visited, a:hover, a:active {
+    color: #F9FAF8;
+}
+
+/* Hero Styling */
+
+.hero-container {
+    align-items: center;
+    padding: 3em 0;
+}
+
+.hero-text {
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-text button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 900;
+    border: 0;
+    padding: .2em 2em;
+    border-radius: 5px;
+}
+
+.hero-img {
+    flex: 1;
+}
